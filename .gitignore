@@ -1,0 +1,34 @@
+# الاعتماديات - المجلدات التي يتم تحميلها تلقائياً ولا داعي لرفعها
+/node_modules
+/.pnp
+.pnp.js
+
+# ملفات الاختبارات
+/coverage
+
+# المجلد المترجم النهائي (عند عمل Build للمشروع)
+/build
+/dist
+
+# ملفات البيئة والمفاتيح السرية (هام جداً ألا ترفع لحماية بياناتك)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ملفات سجلات الأخطاء
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ملفات النظام ومحررات الأكواد (VS Code / WebStorm)
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
